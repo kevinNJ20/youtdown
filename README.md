@@ -1,4 +1,4 @@
-# Facebook Downloader
+# YouTube Downloader
 
 ## Install dependencies
 ```sh 
