@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-arp-injected="true">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="robots" content="index,follow">
+    <title>YouTube Video Downloader (1080p,2K,4K) Free Online - Ytdownload</title>
+    <meta name="description" content="With Ytdownload downloader, users can easily and quickly download their favorite high quality Youtube videos in HD,720P,1080p,2K,4K to their device without any software installation or registration.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For Window Tab Color -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#1d2b40">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#1d2b40">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1d2b40">
+
+    <style id="bsSuggest">
+        .jhover {
+            background: #07d;
+            color: #fff
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main_nav">
+            <a class="logo" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="28" viewBox="0 0 37 28" fill="none" alt="Ytdownload">
+                    <g clip-path="url(#clip0)">
+                        <path d="M0.413567 5.80249C0.646742 2.9375 2.94402 0.705376 5.81232 0.517162C9.497 0.275378 14.5363 0 18.375 0C22.2137 0 27.253 0.275378 30.9377 0.517162C33.806 0.705375 36.1033 2.9375 36.3364 5.80249C36.5469 8.38873 36.75 11.5252 36.75 14C36.75 16.4748 36.5469 19.6113 36.3364 22.1975C36.1033 25.0625 33.806 27.2946 30.9377 27.4828C27.253 27.7246 22.2137 28 18.375 28C14.5363 28 9.497 27.7246 5.81232 27.4828C2.94402 27.2946 0.646742 25.0625 0.413567 22.1975C0.203079 19.6113 0 16.4748 0 14C0 11.5252 0.203079 8.38873 0.413567 5.80249Z" fill="#FF0000"></path>
+                        <path d="M11.1223 8.18535L8 11.1334L18 21L28 11.1334L24.8777 8.18535L20.1879 12.8132V0H15.8121V12.8132L11.1223 8.18535Z" fill="white"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <rect width="36.75" height="28" fill="white"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <span> ytdownload.net</span>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse" style="text-align: center; display: flex; align-items: center; justify-content: center; position: relative; border-bottom: 1px solid #dfdfdf">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/" class="active">
+                        Youtube Downloader
+                    </a>
+                </li>
+                <li>
+                    <a href="/youtube-to-mp3" class="nav-link ">Youtube To Mp3</a>
+                </li>
+                <li>
+                    <a href="/youtube-to-mp4" class="nav-link ">Youtube To Mp4</a>
+                </li>
+
+            </ul>
+        </div>
+    </header><br /><br />
+    <div class="container" style="margin: 0 auto">
+        <div class="container" style="margin: 0 auto">
+            <div class="container" style="height: auto !important;">
+                <div class="row clearfix" style="height: auto !important;">
+                    <div class="col-md-12 column" style="height: auto !important; min-height: 0px !important;">
+                        <div class="col-md-3">
+                            <a class="btn btn-default" href="/"><span class="glyphicon glyphicon-arrow-left"></span> <strong>Download Another Video</strong></a>
+                        </div>
+                        <div class="col-md-1" style="height:10px;"></div>
+                        <div class="col-md-4">
+                            <center>
+                                <a href="/"><img class="img-responsive" src="../static/img/fbdown.png" alt="Download Facebook Videos" title="Facebook Video Downloader Online" width="280px"></a>
+                                <h1 style="font-size:20px;margin-top: 2%;letter-spacing: -0.7px;color:#b4bcc2!important;">
+                                    Facebook Video Downloader
+                                </h1>
+                                <h2 style="font-size: 22px;font-weight:700;margin-bottom: 4%;margin-top: -1%;letter-spacing: -0.7px;">
+                                    Download Your Facebook Video
+                                </h2>
+                                <br>
+                            </center>
+                        </div>
+                        <center style="height: auto !important;">
+                            <div id="result" style="height: auto !important;">
+                                <div class="col-xs-6 col-xs-offset-3 no-padding lib-item">
+                                    <div class="lib-panel">
+                                        <div class="row box-shadow">
+                                            <div class="col-md-6" style="background:black">
+                                                <img style="width:100%;max-height:240px;" class="lib-img-show" src="{{ thumbnail }}" decoding="async" loading="lazy" onerror="this.onerror=null;this.src='../img/no-thumbnail.png';">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="lib-row lib-header">
+                                                    {{ title }} <div class="lib-header-seperator"></div>
+                                                </div>
+                                                <div class="lib-row lib-desc" style="height:auto!important;margin-bottom:2%">
+                                                    <strong>Description:</strong> {{ description }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-xs-2"></div>
+                                <div class="col-xs-8 col-xs-offset-2" style="height: auto !important; min-height: 0px !important;">
+                                    <br>
+                                </div>
+                                <div class="col-xs-12" style="margin-bottom:0%">
+                                    <div id="sd" class="col-md-4 col-md-offset-2" style="margin-bottom:1%;">
+                                        <a class="btn btn-primary btn-sm" id="sdlink" href="{{ mp4 }}" download="No video description...-fvideos-download.com.mp4"><strong style="font-size:17px;" class="dfk">Click Here To Download</strong></a>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </center>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+        <div class="ftco-section center">
+            <h2 class="title">The Best Youtube Downloader</h2>
+            <div class="txt-box">
+                <p class="mw70">Ytdownload YouTube downloader is an online tool that allows users to download YouTube videos in a variety of formats. With Ytdownload YouTube downloader, users can easily download their favorite YouTube videos and save them for offline viewing. The process is simple.</p>
+                <p class="mw70">With Ytdownload YouTube Video Downloader, the age of limitless content is here. Infinite viewing is at your fingertips, without the constraint of internet connectivity. Download in HD, relish in the clarity, and enjoy the boundless world of YouTube offline!</p>
+            </div>
+            <ul class="listitem items-more">
+                <li>
+                    <div class="post-image bg1">
+                        <img src="../static/img/clock.svg" alt="Fast and easy to use">
+                    </div>
+                    <div class="post-content">
+                        <h3>Fast and efficient</h3>
+                        <p>Ytdownload provides a quick and seamless experience for users to download and convert videos from YouTube.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="post-image bg2">
+                        <img src="../static/img/limit.svg" alt="Without limitation">
+                    </div>
+                    <div class="post-content">
+                        <h3>High-quality downloads</h3>
+                        <p>With Ytdownload, users can download videos in 720p,1080p and 4K resolution formats, ensuring the best possible quality for their needs.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="post-image bg3">
+                        <img src="../static/img/safe.svg" alt="Safe and Clean">
+                    </div>
+                    <div class="post-content">
+                        <h3>Supports multiple formats</h3>
+                        <p>Ytdownload allows users to convert and download videos in various formats, such as MP3, MP4, and more, catering to different preferences and devices.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="post-image bg4">
+                        <img src="../static/img/platform.svg" alt="Full platforms supported">
+                    </div>
+                    <div class="post-content">
+                        <h3>User-friendly interface</h3>
+                        <p>The Ytdownload website features an intuitive and easy-to-navigate design, making it accessible for users of all experience levels.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="post-image bg5">
+                        <img src="../static/img/support.svg" alt="Full file format supported">
+                    </div>
+                    <div class="post-content">
+                        <h3>Free to use</h3>
+                        <p>Ytdownload offers its services completely free of charge, enabling users to download and convert videos without any hidden costs.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="post-image bg6">
+                        <img src="../static/img/cloud.svg" alt="Cloud support">
+                    </div>
+                    <div class="post-content">
+                        <h3>No registration required</h3>
+                        <p>Users can access Ytdownload and its features without needing to sign up or create an account, ensuring a hassle-free experience.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="ftco-section center">
+            <h2 class="title">Youtube Video Downloader</h2>
+            <ul class="listicon">
+                <li>
+                    <img src="../static/img/icon1.svg" alt="Youtube to MP4">
+                </li>
+                <li>
+                    <img src="../static/img/icon2.svg" alt="Youtube to MP3">
+                </li>
+                <li>
+                    <img src="../static/img/icon3.svg" alt="Youtube to 3GP">
+                </li>
+                <li>
+                    <img src="../static/img/icon4.svg" alt="Youtube to WEBM">
+                </li>
+                <li>
+                    <img src="../static/img/icon5.svg" alt="Youtube to M4A">
+                </li>
+            </ul>
+            <p class="mw70">Ytdownload Youtube Video Downloader is a reliable and efficient tool for downloading and converting YouTube videos in HD,720P,1080p,2K,4K, with a range of features that make it a popular choice among users.</p>
+            <p class="magT40"><a class="btn-red mag0" type="button" href="/">Convert now</a></p>
+        </div>
+        <div class="ftco-section center">
+            <h2 class="title">How to Use YouTube Downloader</h2>
+            <ul class="listicon liststep">
+                <li>
+                    <span class="number">1</span>
+                    <span>just copy and paste the YouTube video URL into the download box</span>
+                </li>
+                <li>
+                    <span class="number">2</span>
+                    <span>select the desired format and quality</span>
+                </li>
+                <li>
+                    <span class="number">3</span>
+                    <span>click the download button to save the file to your computer or phone.</span>
+                </li>
+            </ul>
+        </div>
+        <div class="ftco-section section-left">
+            <section itemscope="" itemtype="https://schema.org/FAQPage">
+                <div class="sf_container">
+                    <div class="wrapper">
+                        <div class="sf_faq">
+                            <h3 class="title center">Questions and Answers</h3>
+                            <div class="faq_item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="faq_item_title">
+                                    <h4 itemprop="name">Is Ytdownload downloader safe to use?</h4>
+                                </div>
+                                <div class="faq_item_content" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                    <div itemprop="text">
+                                        Yes, Ytdownload downloader is safe to use. It is a web-based platform that does not require users to download or install any software, which eliminates the risk of viruses or malware. Additionally, the platform does not store any user data, ensuring privacy and security.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="faq_item_title">
+                                    <h4 itemprop="name">Can I download videos from other websites besides YouTube?</h4>
+                                </div>
+                                <div class="faq_item_content" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                    <div itemprop="text">
+                                        No, Ytdownload downloader is designed specifically for downloading videos from YouTube. Attempting to download videos from other websites may not work or could potentially be illegal.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="faq_item_title">
+                                    <h4 itemprop="name">What video formats can I download using Ytdownload downloader?</h4>
+                                </div>
+                                <div class="faq_item_content" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                    <div itemprop="text">
+                                        Ytdownload downloader offers a variety of video formats, including MP4, WebM, and 3GP. Users can also download audio files in MP3 format.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="faq_item_title">
+                                    <h4 itemprop="name">Can I use Ytdownload downloader on my mobile device?</h4>
+                                </div>
+                                <div class="faq_item_content" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                    <div itemprop="text">
+                                        Yes, Ytdownload downloader is accessible from any device with an internet connection, including mobile devices such as smartphones and tablets.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="faq_item_title">
+                                    <h4 itemprop="name">Is it legal to download YouTube videos using Ytdownload downloader?</h4>
+                                </div>
+                                <div class="faq_item_content" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                    <div itemprop="text">
+                                        It is legal to download YouTube videos for personal use, such as watching offline or using in a presentation. However, it is important to respect copyright laws and not use downloaded videos for commercial purposes or without permission from the content creators.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="copyright">
+                <ul class="flex flex-a-i-center">
+                    <li><a href="/terms-of-use" target="_blank">Terms of Use</a></li>
+                    <li><a href="/copyright-information" target="_blank">Copyright Information</a></li>
+                    <li><a href="/privacy-policy" target="_blank">Privacy Policy</a></li>
+                </ul>
+
+                <ul class="flex flex-a-i-center">
+                    <li><a href=""></a></li>
+                </ul>
+                <p class="mag0"> © 2024 Ytdownload.net </p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>
