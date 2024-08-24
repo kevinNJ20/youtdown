@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\download_mp3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\copyright-information.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\copyright-information.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\youtube-to-mp4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,8 +35,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\download_mp4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\copyright-information.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\copyright-information.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\download_mp3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\app.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -58,25 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "download_mp3.html",
-              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp3.html",
-              "RelativeDocumentMoniker": "templates\\download_mp3.html",
-              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp3.html",
-              "RelativeToolTip": "templates\\download_mp3.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T07:35:31.79Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -85,9 +68,10 @@
               "RelativeDocumentMoniker": "templates\\download_mp4.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp4.html",
               "RelativeToolTip": "templates\\download_mp4.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T07:35:39.89Z"
+              "WhenOpened": "2024-07-18T07:35:39.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,9 +81,10 @@
               "RelativeDocumentMoniker": "templates\\download_video.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_video.html",
               "RelativeToolTip": "templates\\download_video.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-17T14:56:42.585Z"
+              "WhenOpened": "2024-07-17T14:56:42.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,9 +94,10 @@
               "RelativeDocumentMoniker": "templates\\index.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\index.html",
               "RelativeToolTip": "templates\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-17T14:35:16.662Z"
+              "WhenOpened": "2024-07-17T14:35:16.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -121,9 +107,10 @@
               "RelativeDocumentMoniker": "templates\\privacy-policy.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\privacy-policy.html",
               "RelativeToolTip": "templates\\privacy-policy.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T19:42:21.585Z"
+              "WhenOpened": "2024-07-18T19:42:21.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -133,9 +120,10 @@
               "RelativeDocumentMoniker": "templates\\terms-of-use.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\terms-of-use.html",
               "RelativeToolTip": "templates\\terms-of-use.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T19:35:57.098Z"
+              "WhenOpened": "2024-07-18T19:35:57.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -145,9 +133,10 @@
               "RelativeDocumentMoniker": "templates\\youtube-to-mp3.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\youtube-to-mp3.html",
               "RelativeToolTip": "templates\\youtube-to-mp3.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-17T21:11:36.918Z"
+              "WhenOpened": "2024-07-17T21:11:36.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -157,22 +146,36 @@
               "RelativeDocumentMoniker": "templates\\youtube-to-mp4.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\youtube-to-mp4.html",
               "RelativeToolTip": "templates\\youtube-to-mp4.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-17T21:11:47.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "copyright-information.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\copyright-information.html",
               "RelativeDocumentMoniker": "templates\\copyright-information.html",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\copyright-information.html",
               "RelativeToolTip": "templates\\copyright-information.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T19:39:13.579Z"
+              "WhenOpened": "2024-07-18T19:39:13.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "download_mp3.html",
+              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp3.html",
+              "RelativeDocumentMoniker": "templates\\download_mp3.html",
+              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp3.html",
+              "RelativeToolTip": "templates\\download_mp3.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-18T07:35:31.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -209,6 +212,10 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAwwC8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-07-17T14:36:48.043Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
