@@ -58,20 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "terms-of-use.html",
-              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\terms-of-use.html",
-              "RelativeDocumentMoniker": "templates\\terms-of-use.html",
-              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\terms-of-use.html",
-              "RelativeToolTip": "templates\\terms-of-use.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T19:35:57.098Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -130,8 +118,7 @@
               "RelativeToolTip": "templates\\download_mp4.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T07:35:39.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T07:35:39.89Z"
             },
             {
               "$type": "Document",
@@ -145,6 +132,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-07-17T14:36:48.043Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "terms-of-use.html",
+              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\terms-of-use.html",
+              "RelativeDocumentMoniker": "templates\\terms-of-use.html",
+              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\terms-of-use.html",
+              "RelativeToolTip": "templates\\terms-of-use.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-18T19:35:57.098Z"
             },
             {
               "$type": "Document",
