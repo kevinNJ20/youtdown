@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\downloader.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:downloader.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\download_mp4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\static\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\downloader.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:downloader.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,37 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\index.html",
-              "RelativeDocumentMoniker": "templates\\index.html",
-              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\index.html",
-              "RelativeToolTip": "templates\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-17T14:35:16.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "privacy-policy.html",
-              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\privacy-policy.html",
-              "RelativeDocumentMoniker": "templates\\privacy-policy.html",
-              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\privacy-policy.html",
-              "RelativeToolTip": "templates\\privacy-policy.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T19:42:21.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "terms-of-use.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\terms-of-use.html",
               "RelativeDocumentMoniker": "templates\\terms-of-use.html",
@@ -96,12 +70,11 @@
               "RelativeToolTip": "templates\\terms-of-use.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T19:35:57.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T19:35:57.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "youtube-to-mp3.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\youtube-to-mp3.html",
               "RelativeDocumentMoniker": "templates\\youtube-to-mp3.html",
@@ -109,12 +82,11 @@
               "RelativeToolTip": "templates\\youtube-to-mp3.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-17T21:11:36.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T21:11:36.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "youtube-to-mp4.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\youtube-to-mp4.html",
               "RelativeDocumentMoniker": "templates\\youtube-to-mp4.html",
@@ -122,12 +94,11 @@
               "RelativeToolTip": "templates\\youtube-to-mp4.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-17T21:11:47.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T21:11:47.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "copyright-information.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\copyright-information.html",
               "RelativeDocumentMoniker": "templates\\copyright-information.html",
@@ -135,12 +106,11 @@
               "RelativeToolTip": "templates\\copyright-information.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T19:39:13.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T19:39:13.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "download_mp3.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp3.html",
               "RelativeDocumentMoniker": "templates\\download_mp3.html",
@@ -148,12 +118,11 @@
               "RelativeToolTip": "templates\\download_mp3.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-18T07:35:31.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T07:35:31.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "download_mp4.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_mp4.html",
               "RelativeDocumentMoniker": "templates\\download_mp4.html",
@@ -166,7 +135,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "downloader.py",
+              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\downloader.py",
+              "RelativeDocumentMoniker": "downloader.py",
+              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\downloader.py",
+              "RelativeToolTip": "downloader.py",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwB8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-17T14:36:48.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "privacy-policy.html",
+              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\privacy-policy.html",
+              "RelativeDocumentMoniker": "templates\\privacy-policy.html",
+              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\privacy-policy.html",
+              "RelativeToolTip": "templates\\privacy-policy.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-18T19:42:21.585Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\index.html",
+              "RelativeDocumentMoniker": "templates\\index.html",
+              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\index.html",
+              "RelativeToolTip": "templates\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-17T14:35:16.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "download_video.html",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\templates\\download_video.html",
               "RelativeDocumentMoniker": "templates\\download_video.html",
@@ -174,12 +180,11 @@
               "RelativeToolTip": "templates\\download_video.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-17T14:56:42.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T14:56:42.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "app.py",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\app.py",
               "RelativeDocumentMoniker": "app.py",
@@ -191,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\static\\styles.css",
               "RelativeDocumentMoniker": "static\\styles.css",
@@ -200,18 +205,6 @@
               "ViewState": "AQIAAGsAAAAAAAAAAAAawHwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-17T21:00:27.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "downloader.py",
-              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\downloader.py",
-              "RelativeDocumentMoniker": "downloader.py",
-              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\ytdownload\\downloader.py",
-              "RelativeToolTip": "downloader.py",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwC8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-17T14:36:48.043Z"
             },
             {
               "$type": "Bookmark",
