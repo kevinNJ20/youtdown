@@ -29,7 +29,7 @@ def fetch_video_links(url):
         api_url = f"https://yt-api.p.rapidapi.com/dl?id={video_id}"
         headers = {
             'x-rapidapi-host': 'yt-api.p.rapidapi.com',
-            'x-rapidapi-key': '2e23d87466msh02392d4212b6f4ap1c7aaajsn44897a354b8a'
+            'x-rapidapi-key': '993d8e87b2msh018f22758660c7dp1eb37ejsnd8a5dcc1853c'
         }
 
         response = requests.get(api_url, headers=headers, verify=False)
